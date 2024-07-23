@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
 
 :root {
-  --body-bg-color: #faf7e9;
-  --purple: #fa6aa1;
+  --body-bg-color: #faf7fd;
+  --purple: #d80a18;
 }
 
 * {
@@ -66,7 +66,7 @@ body,html {
 
 .links-container .link {
   text-decoration: none;
-  color: var(--purple);
+  color: #d80a18;
   margin-top: 16px;
   width: 325px;
 
@@ -98,13 +98,22 @@ body,html {
   gap: 29px;
 }
 
+.socials-container .social {
+  transform: scale(0.9);
+  transition: ease 0.2s;
+}
+
+.socials-container .social:hover {
+  transform: scale(1);
+}
+
 footer{
-  margin-top: 100px;
+margin-top 50px;
 }
 
 footer > p {
-
   font-size: 11px;
   text-align: center;
-  color: var(--purple);
+  color: #d80a18;
 }
+
